@@ -4,10 +4,10 @@ var TestUtils = require('react-addons-test-utils');
 var expect = require('expect');
 var $ = require('jquery');
 
-var Todo = require('Todo');
+var AddTodo = require('AddTodo');
 
-describe('Todo', () => {
+describe('AddTodo', () => {
   it('should exist', () => {
-    expect(Todo).toExist();
+    expect(AddTodo).toExist();
   });
 });
